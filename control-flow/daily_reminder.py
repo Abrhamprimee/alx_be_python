@@ -28,4 +28,4 @@ def generate_reminder(task, priority, time_bound):
 
 if __name__ == "__main__":
     task, priority, time_bound = get_task_info()
-    print(generate_reminder(task, priority, time_bound))
+    print(f"Reminder: {generate_reminder(task, priority, time_bound)}")
