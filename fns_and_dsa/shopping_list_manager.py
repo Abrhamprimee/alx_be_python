@@ -2,12 +2,12 @@
 shopping_list = []
 
 def display_menu():
-    print("\nShopping List Manager")
-    print("1. Add item to shopping list")
-    print("2. Remove item from shopping list")
-    print("3. View shopping list")
+    print("Shopping List Manager")  # Ensure this exists
+    print("1. Add Item")  # Ensure this exists as written
+    print("2. Remove Item")
+    print("3. View List")
     print("4. Exit")
-
+    
 def add_item():
     item = input("Enter the item to add: ").strip()
     if item:
